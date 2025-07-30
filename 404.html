@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>重定向中...</title>
+</head>
+<body>
+    <script>
+        // 获取当前路径
+        const path = window.location.pathname;
+        const search = window.location.search;
+        const hash = window.location.hash;
+        
+        // 重定向到主页
+        window.location.href = '/ceshi/' + search + hash;
+    </script>
+    <p>正在重定向...</p>
+</body>
+</html> 
